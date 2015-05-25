@@ -1,6 +1,7 @@
 module.exports = {
   port: 3000,
-  db: 'mongodb://localhost/blockbuster',
+  dbURI: 'mongodb://localhost/blockbuster',
+  publicFolder: path.join(__dirname, '../public'),
   tokenSecret: 'shhhh',
   googleSecret: 'mJ382GkzlsS6d5H8dlWPhPUG'
 };
